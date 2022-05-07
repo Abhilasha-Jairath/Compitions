@@ -1,3 +1,7 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int main(){
 class Solution {
 public:
     bool find132pattern(vector<int>& nums) {
@@ -16,5 +20,6 @@ public:
             st.push(nums[i]);
         }
         return false;
+    }
     }
 };
